@@ -10,7 +10,7 @@ class Message(BaseModel):
 
 @app.get("/")
 def root():
-    return {"message": "API is live and alam is talking to you hi"}
+    return {"message": "API is live and alam is talking to you hiii"}
 
 
 @app.get("/health")
