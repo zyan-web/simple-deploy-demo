@@ -9,9 +9,9 @@ A minimal FastAPI application demonstrating CI/CD deployment to AWS EC2 using Gi
 
 ## Run Locally
 \`\`\`bash
-uv venv --python 3.12
+python -m venv .venv
 source .venv/bin/activate
-uv pip install -r requirements.txt
+pip install -r requirements.txt
 uvicorn main:app --reload
 \`\`\`
 

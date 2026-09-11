@@ -10,12 +10,13 @@ class Message(BaseModel):
 
 @app.get("/")
 def root():
-    return {"message": "API is live and alam is talking to you hiii"}
+    return {"message": "API is live"}
 
 
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
+
 
 @app.post("/echo")
 def echo(message: Message):

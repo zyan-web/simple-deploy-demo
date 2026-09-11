@@ -7,7 +7,7 @@ client = TestClient(app)
 def test_root():
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json()["message"] == "API is live and alam is talking to you hiii"
+    assert response.json()["message"] == "API is live"
 
 
 def test_health_check():

@@ -2,5 +2,10 @@
 __pycache__
 *.pyc
 .git
+.gitignore
+.github
+.pytest_cache
+tests
+README.md
 ai-server-key.pem
 
